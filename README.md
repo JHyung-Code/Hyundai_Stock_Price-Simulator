@@ -20,6 +20,20 @@ Underwent DCF Analysis through WACC-based discount rate to analyse and forecast 
 
   Holds the DCF Model that includes the expected EBIT growth and revenue growth alongside discounting factors of WACC. Revenue growth have been forecasted using historical mean and stadard deviations, where I have generated a normally generated random figure. Excel file also contains financial records and calculations that I have reconciled and approximated from available sources online.
 
+## Key Findings:
+
+* True variance: 11827.8870
+* Monte Carlo-Generated variance: 1307.9007
+* Percentage error: 88.94%
+
+There lies significance variances in the true history of stock prices for Hyundai compared to the Monte-Carlo Generated Stock price. Major cause of this could be due to simulations that may not reflect upon the data of the true data. As data itself has been generated through a normally distributed random sampling, data may have some outliers but most will be centered around the Mean and Variance.
+
+
+* WACC from Alphaspread: 7.38%
+* WACC estimated: 1.80%
+
+WACC has been generated from the DCF modelling of share prices, using historical growth patterns to generate reasonable data. After some testing, Share price tends to differ in prices of roughly 0% to 309%. We take 0%, only if the given Firm Value comes out as a negative value from the simulations, which is a reasonable assumption to make.
+
 
 ## Limitations:
 
